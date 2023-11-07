@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}" />
+    <title>Zoro</title>
+
+    {% block reload %} {% endblock %}
+  </head>
+  <body>
+    {% include './partials/header.html' %}
+    <main>
+      <section class="section2">
+        {% include './partials/menu.html' %} {% block main_content %} {% endblock %}
+      </section>
+    </main>
+  </body>
+</html>

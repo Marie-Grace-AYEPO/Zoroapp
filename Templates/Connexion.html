@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <title>Formulaire</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav">
+          <a href="/">Zoro</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="section1">
+        <div class="section1_1">
+          <div class="formulaire1">
+            <h1>Connectez-vous</h1>
+            <form action="/page2/" method="get">
+              <input
+                type="text"
+                name="nomprenom"
+                id="name"
+                placeholder="Identifiant"
+              />
+              <input
+                type="password"
+                name="email"
+                id="password"
+                placeholder="Mot de passe"
+              />
+
+              <input type="submit" value="Connexion" />
+            </form>
+            <p class="texte2"><a href="">Si pas de compte inscrivez-vous</a></p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

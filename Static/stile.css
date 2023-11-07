@@ -1,0 +1,134 @@
+header {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(0, 153, 255);
+  border: solid rgb(0, 114, 137);
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  width: 45%;
+  height: 100%;
+  font-size: 85px;
+  text-align: center;
+}
+
+a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* INDEX.HTML */
+.section1 {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(177, 177, 177);
+}
+
+.section1_1 {
+  height: 50%;
+  width: 40%;
+  border: 1px solid black;
+  background-color: rgb(0, 153, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+}
+
+.formulaire1 {
+  height: 95%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+.formulaire1 h1 {
+  height: 8%;
+  width: 100%;
+  font-size: 2em;
+}
+.formulaire1 form {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.formulaire1 form input[type="text"],
+.formulaire1 form input[type="password"] {
+  width: 90%;
+  height: 20%;
+  border-radius: 10px;
+  text-align: center;
+}
+.formulaire1 form input[type="submit"] {
+  width: 60%;
+  height: 20%;
+  text-align: center;
+  border-radius: 10px;
+}
+.texte2 {
+  height: 8%;
+  width: 100%;
+  font-size: 18px;
+  text-decoration: underline;
+  color: #fff;
+}
+/* INDEX.HTML */
+
+/* INDEX4.HTML */
+
+.section2 {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgb(177, 177, 177);
+}
+
+.section2_1 {
+  width: 20%;
+  height: 100%;
+  background-color: rgb(0, 153, 255);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.section2_1_1 {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.section2_2 {
+  width: 80%;
+  height: 100%;
+  background-color: rgb(219, 219, 219);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section2_2_1 {
+  width: 95%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
